@@ -1,0 +1,1 @@
+php artisan crud:generate SalesMaster --fields="cu_id#string; branch_id#varchar; pay_method#select#options=petrol,octane,diesel; grand_total#double; discount#double; net_pay#double; due#double" --view-path= --controller-namespace=SalesMaster --route-group=salesmasters
